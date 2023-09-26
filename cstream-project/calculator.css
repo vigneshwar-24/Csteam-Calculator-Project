@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #495250;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main input[type='text'] {
+    width: 90%;
+    height: 80px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 1px solid #ccc;
+    border-radius: 40px; 
+    margin-bottom: 10px;
+}
+
+.btn input[type='button'] {
+    width: 90px;
+    padding: 2px;
+    margin: 2px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn input[type='button']:hover {
+    background-color: black;
+}
+
+.history {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.history h2 {
+    color: rgb(246, 210, 210);
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    max-height: 150px; /* Set a maximum height to make it constant size */
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #FFD700;
+    background-color: #f9f9f9;
+    resize: none;
+    overflow-y: scroll;
+}
